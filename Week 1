@@ -1,1 +1,84 @@
+1.
+Question 1
+Which are some of the purposes of a register definition file?
 
+-Define access macros to peripheral registers
+
+-Define register overlays for peripheral devices
+
+-Define bit masks for peripheral registers
+
+
+2.
+Question 2
+Which of the following data types are standard integer types defined in the stdint.h header file?
+
+-uint8_t
+-uint_fast32_t
+
+
+3.
+Question 3
+Which of these would be defined by an EABI?
+
+-Data type alignment
+
+-Word Size
+
+-Stack calling convention
+
+
+4.
+Question 4
+The Cortex-M4 Contains the following busses
+
+-Advanced Peripheral Bus (APB)
+-AMBA High Performance Bus (AHB)
+-Private Peripheral Bus (PPB)
+
+
+5.
+Question 5
+The following structure will take up how many bytes in memory ?
+
+-7
+
+
+6.
+Question 6
+Byte padding allows a microcontroller to
+
+-More efficiently load and store data to memory
+
+
+7.
+Question 7
+Which of the following registers are Core CPU registers?
+
+-EPSR
+-APSR
+-Stack Pointer
+-Control Register
+
+
+8.
+Question 8
+Which line of code directly dereferences the TimerA0 Control Register and assigns a value?
+
+-(*( (volatile uint16_t*) (0x40000000) )) = 0x0202; 
+
+
+9.
+Question 9
+The type qualifier volatile does what ?
+
+-Prevents the process from optimizing the use of the variable
+
+
+10.
+Question 10
+Pragmas and Attributes can help with which of the following ? 
+
+-Provide special commands to the compiler
+-Ensure a variable or function are compiled a certain way
+-Help with data alignment
