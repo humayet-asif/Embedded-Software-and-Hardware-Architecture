@@ -1,1 +1,75 @@
+1.
+Question 1
+What is the result of the following operations on the variable foo?
+
+uint32_t foo = 0x01234567;	foo ^= ~(0x00FFFF00);foo = (foo & 2047) | (0x176 << 20);
+
+-0x20204700
+
+
+2.
+Question 2
+GPIO Port 2 pin mode is set by which register?
+
+-P2SELx
+
+
+3.
+Question 3
+The CMSIS library is what?
+
+-A hardware abstraction library
+-An ARM Core Architecture Library
+
+
+4.
+Question 4
+Given a 32-bit architecture, a void pointer will dereference how much data?
+
+-Cannot be dereferenced
+
+
+5.
+Question 5
+A double pointer 
+
+-Points to a pointer of the same type
+
+
+6.
+Question 6
+Which code provides the correct way to declare a function pointer?
+
+-void (*function)(int data);
+
+
+Question 7
+Which code correctly calls a function, given a function pointer variable, fptr, that has no parameters and is type void?
+
+-(*fptr)();
+-fptr(); 
+
+8.
+Question 8
+The Interrupt vector table is 
+
+-An array of Function Pointers
+
+9.
+Question 9
+The CCS debugger allows you to
+
+-Investigate and change the values of local variables
+-Can help step through code
+-Set breakpoints and watchpoints
+-Manipulate peripheral register values
+
+10.
+Question 10
+The Memory Browser allows you to
+
+-Look at the data stored in peripheral registers
+-Look at data in SRAM Memory
+-Look at data stored in the BSS and DATA memory segments
+
 
