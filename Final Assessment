@@ -1,0 +1,80 @@
+1.
+Question 1
+List some characteristics of a FIFO Buffer.
+
+
+-Requires a contiguous block of memory
+
+-Requires a data structure to manage the block of memory
+
+
+2.
+Question 2
+True or False: LIFO Buffer instances can be allocated both dynamically and statically.
+
+
+-True
+
+
+3.
+Question 3
+What keyword should be used on the buffer members if it is being used between main and an Interrupt subroutine in a produce consumer model?
+
+-volatile
+
+
+4.
+Question 4
+Enumerations...
+
+
+-Can be used to define a data structure
+
+
+-Can define numerous constants of the same value
+
+
+-Can be used to define error codes
+
+
+-Are usually defined with lower case letters
+
+
+-Have a size that is Architecture dependent (EABI)
+
+
+
+
+5.
+Question 5
+Encapsulation is important to use with data structures because
+
+
+-It forces interaction with the structure to happen only in provided routines protecting from incorrect use
+
+
+-It reduces the opportunity to introducing bugs to using a data structure
+
+
+-It ensures that structure members are accessed through consistent methods using an interface
+
+
+-It often provides get and set operations for data structures
+
+
+6.
+Question 6
+True or False: Bit field use implicitly uses bit manipulation.
+
+-True
+
+
+
+7.
+Question 7
+Unions...
+
+Option 1 
+Option 3 
+Option 4
+
