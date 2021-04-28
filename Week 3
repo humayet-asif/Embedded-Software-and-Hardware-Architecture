@@ -1,1 +1,109 @@
 
+1.
+Question 1
+Overall, how many bits in this structure definition will be used out of the overall structure allocation (as compared to how many are unused or used as padding)?
+Struct example {
+
+  uint16_t a:2
+
+  uint16_t b:3
+
+  uint16_t c:4
+
+  uint16_t d;
+
+};
+
+
+-25 bits are being used
+
+
+2.
+Question 2
+Which structure definition represents a singly linked list structure?
+
+
+-struct node   { 
+
+ uint32_t data; 
+
+ struct node * next; 
+
+ };
+
+
+
+
+3.
+Question 3
+What is the size of this union definition below given the MSP432 32-bit architecture?
+union example {
+
+  uint8_t * ptr;
+
+  uint32_t data;
+
+  uint8_t ** dptr; 
+
+};
+
+
+-4 bytes
+
+4.
+Question 4
+Enumeration data sizes are always the size of a word?
+
+-False
+
+
+5.
+Question 5
+Enumeration values can range from:
+
+
+-Factional values from 0.0 to 25.5 incrementing by 0.1
+-The unsigned range of the word
+-The signed range of a word
+
+6.
+Question 6
+When designing an abstract data structure, you usually also need to:
+
+-Define the function interfaces for the structure to add, remove, read, or write data
+-Ensure proper use of the data structure by checking bounds or even restricting public access to certain internal member variables
+-Define the internal structure members of the associated abstruct data structure type
+
+
+
+7.
+Question 7
+Given the circular buffer structure defined below, which code would correctly read the data stored at the head pointer? (Assume the buffer has been initialized)
+    typedef struct CircBuf {
+
+      uint32_t length;
+
+      uint8_t * base;
+
+      uint8_t * head;
+
+      uint8_t * tail;
+
+    } CircBuf_t;
+
+   CircBuf_t cb;
+
+   uint8_t data;
+
+
+
+-data = *(cb.head);
+
+
+8.
+Question 8
+When removing an item to a FIFO buffer, what operations do you need to perform?
+
+-Option 1
+-Option 4
+-Option 5
